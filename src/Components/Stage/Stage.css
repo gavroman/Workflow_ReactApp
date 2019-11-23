@@ -1,0 +1,11 @@
+.stage {
+/*    display: flex;
+    flex-flow: column;
+    justify-content: center;*/
+    background: #ffeeab;
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+    width: 450px;
+    margin: 10px 10px;
+}

@@ -1,0 +1,11 @@
+.task {
+/*    display: grid;
+    grid-template-columns: 1;*/
+/*    justify-items: center;*/
+    background: #ffeeab;
+/*    flex-grow: 1;*/
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+    margin: 10px 10px;
+}

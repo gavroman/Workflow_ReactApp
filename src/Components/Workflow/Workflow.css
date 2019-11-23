@@ -1,0 +1,12 @@
+.workflow {
+    display: grid;
+    grid-template-columns: 1;
+    justify-items: center;
+}
+
+.stages {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    grid-row: 3;
+}
