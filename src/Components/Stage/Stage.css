@@ -1,11 +1,23 @@
 .stage {
-/*    display: flex;
-    flex-flow: column;
-    justify-content: center;*/
+    text-align: center;
     background: #ffeeab;
     border-style: solid;
     border-color: red;
     border-width: 2px;
-    width: 450px;
+    width: 350px;
     margin: 10px 10px;
+}
+
+.tasks {
+    max-height: 443px;
+    overflow-y: scroll;
+}
+
+.next-stage-button {
+    text-align: center;
+    width: 200px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 20px;
+    margin: 10px;
 }

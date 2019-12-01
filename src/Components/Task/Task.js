@@ -7,17 +7,17 @@ class Task extends React.Component {
         super(props);
         this.state = {
             'id' : props.id,
-            'title' : props.title || ('Task ' + this.props.id),
-            'text' : props.text || 'Enter your task description'
-
+            'title' : props.title || ('Task ' + props.id),
+            'text' : props.text || ('Very important task description ' + props.id)
         };
     }
 
     render() {
+
         return (
             <div className='task'>
-                <h3>{this.state.title} </h3>
-                <p>{this.state.title}</p>
+                <h3>{this.state.title}</h3>
+                <p>{this.state.text}</p>
             </div>
         );
     }
