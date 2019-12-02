@@ -60,10 +60,11 @@ class Stage extends React.Component {
     }
 
     render() {
+        let classNames = (this.state.tasks.length > 3)? 'tasks' : 'tasks-no-scroll';
         return (
             <div className='stage'>
                 <h2>{this.state.title} </h2>
-                <div className='tasks'>
+                <div className={classNames}>
                     {this.state.tasks.map( (elem, index, arr) => {
                         return <Task id={elem.id}
                                      // title={elem.title}

@@ -2,8 +2,10 @@
     text-align: center;
     width: 120px;
     border-style: solid;
-    border-color: red;
+    border-color: #508041;
     border-radius: 20px;
-    margin-bottom: 10px;
+    margin: 10px;
+    background: #1dff37;
+    box-shadow: inset 0 0 15px #469237;
 }
 
